@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:manage_trust/presentation/screens/admin/user_management_screen.dart';
 import 'package:manage_trust/presentation/screens/common/login_screen.dart';
 import 'package:manage_trust/presentation/screens/common/signup_screen.dart';
 
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Government Trust Management System',
       theme: ThemeData(primarySwatch: Colors.blue),
-      // home: LoginScreen(),
+      // home: UserManagementScreen(),
       initialRoute: '/login', // Start with the login screen
       routes: {
         '/login': (context) => LoginScreen(), // Login screen route
